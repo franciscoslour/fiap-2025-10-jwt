@@ -1,0 +1,16 @@
+server:
+  port:8080
+
+app:
+  jwt:
+    secret: A7X9K2L8M4Q1Z6V3N5T0Y9B2C7R8W1D0
+    expirationMs: 3600000
+
+spring:
+  main:
+    allow-circular-references: true
+  application:
+    name: SpringSecurityJWT
+  datasource:
+    url: jdbc:h2:mem:testedb
+    password: 12345
